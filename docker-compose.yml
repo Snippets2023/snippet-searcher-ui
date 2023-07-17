@@ -5,6 +5,6 @@ services:
     container_name: "snippets-ui"
     build:
       context: .
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     ports:
       - "80:80"
